@@ -1,2 +1,25 @@
+body { font-family: 'avenir-light' }
 .largeFont { font-size: 1.2em; line-height: 1.8em; }
 ul li { list-style: disc; margin-left: 1.4em; }
+
+@font-face {
+    font-family: 'avenirlight';
+    src: url('avenir-light.eot');
+    src: url('avenir-light.eot?#iefix') format('embedded-opentype'),
+         url('avenir-light.woff') format('woff'),
+         url('avenir-light.ttf') format('truetype'),
+         url('avenir-light.svg#avenirlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenirlight_oblique';
+    src: url('avenir-lightoblique.eot');
+    src: url('avenir-lightoblique.eot?#iefix') format('embedded-opentype'),
+         url('avenir-lightoblique.woff') format('woff'),
+         url('avenir-lightoblique.ttf') format('truetype'),
+         url('avenir-lightoblique.svg#avenirlight_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
