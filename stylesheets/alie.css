@@ -4,6 +4,7 @@ body {
 }
 .largeFont { font-size: 1.2em; line-height: 1.8em; }
 ul li { list-style: none; margin-left: 0em; line-height: 21px;}
+em, h1, h2, h3, h4, h5, h6 { font-family: 'avenirlight'; }
 
 @font-face {
     font-family: 'avenirlight';
